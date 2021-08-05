@@ -8,6 +8,7 @@
     --fontwhite: #fff;
     --brndcolor: #e0a120;
     --blkcolor: #000;
+    --bgcolor: linear-gradient(114deg, rgba(241,242,246,1) 0%, rgba(230,230,230,1) 100%);
 }
 h1,h2,h3,h4{
     font-family: var(--font);
@@ -67,6 +68,7 @@ h1,h2,h3,h4{
     height: 350px;
     width: auto;
     padding-top: 60px;
+    background-color: var(--bgcolor);
 }
 .about-section h3{
     text-align: center;
@@ -81,4 +83,6 @@ h1,h2,h3,h4{
     margin: auto;
     font-family: var(--font);
     letter-spacing: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
