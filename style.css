@@ -14,6 +14,10 @@ h1,h2,h3,h4{
     font-family: var(--font);
 }
 
+
+/* Landing Section Code starts here */
+
+
 .container .landing-section{
     height: 100vh;
     width: auto;
@@ -64,6 +68,10 @@ h1,h2,h3,h4{
     padding-left: 15px;
     cursor: pointer;
 }   
+
+
+/* About Section Code starts here */
+
 .about-section{
     height: 350px;
     width: auto;
@@ -86,6 +94,9 @@ h1,h2,h3,h4{
     padding-right: 20px;
     padding-left: 20px;
 }
+
+/* Menu Section Code starts here */
+
 .menu-section{
     height: max-content;
     background-color:var(--bgcolor);
@@ -189,4 +200,47 @@ h1,h2,h3,h4{
 }
 .menu-pricetag .fas{
     color: green;
+}
+
+/* Oulet Section code stats here */
+
+.container .outlet-section{
+    height: 800px;
+    width: auto;
+    background-color: rgb(133, 130, 131);
+}
+.outlet-section h3{
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5px;
+}
+.outlet-section .outlet-locations{
+    margin:25px 150px 0px 300px;
+    background-color: indianred;
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.outlet-locations .wandoor-outlet, .outlet-locations .nilambur-outlet{
+    height: 380px;
+    width:350px;
+    background-color: indigo;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.wandoor-outlet{
+    background: url(/images/wandoor-outlet.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nilambur-outlet{
+    background: url(/images/nilambur-oulet.png);
+    background-position: center;
+    background-size: cover;
 }
