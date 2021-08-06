@@ -99,13 +99,17 @@ h1,h2,h3,h4{
 }
 .menu-section .menu-tag{
     font-family: var(--font);
-    margin:0 613px;
+    display: table;
+    margin: auto;
+    text-align: center;
     font-size: 14px;
+    color: rgb(102, 95, 95);
 }
 .menu-section .menu-items{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
 }
