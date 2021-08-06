@@ -205,18 +205,49 @@ h1,h2,h3,h4{
 /* Outlet Section code stats here */
 
 .container .outlet-section{
-    height: 800px;
+    height: max-content;
     width: auto;
-    background-color: rgb(133, 130, 131);
+    background-color: var(--bgcolor);
 }
 .outlet-section h3{
     font-weight: 500;
     text-align: center;
     font-size: 2rem;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
+.outlet-section .location-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.outlet-section .side-image{
+    position: absolute;
+    left:-50px;
+    height: 380px;
+    width:200px;
+    margin-top: 25px;
+    background: url(/images/sidepost-shawarma-shack.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 8px 8px 0px;
+    border-top: 3px solid var(--brndcolor);
+    border-right: 3px solid var(--brndcolor);
+    border-bottom: 3px solid var(--brndcolor);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
 .outlet-section .outlet-locations{
-    margin:25px 150px 0px 300px;
+    margin:25px 100px 0px 200px;
     /* background-color: indianred; */
     width: auto;
     height: 400px;
