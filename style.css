@@ -87,10 +87,11 @@ h1,h2,h3,h4{
     padding-left: 20px;
 }
 .menu-section{
-    height: 800px;
+    height: max-content;
     background-color:var(--bgcolor);
     width: auto;
     padding-top: 60px;
+    padding-bottom: 80px;
 }
 .menu-section h3{
     font-weight: 500;
@@ -101,6 +102,8 @@ h1,h2,h3,h4{
     font-family: var(--font);
     display: table;
     margin: auto;
+    /* display: inline-block;
+    width: 100%; */
     text-align: center;
     font-size: 14px;
     color: rgb(102, 95, 95);
