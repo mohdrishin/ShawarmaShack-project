@@ -217,7 +217,7 @@ h1,h2,h3,h4{
 }
 .outlet-section .outlet-locations{
     margin:25px 150px 0px 300px;
-    background-color: indianred;
+    /* background-color: indianred; */
     width: auto;
     height: 400px;
     display: flex;
@@ -227,11 +227,12 @@ h1,h2,h3,h4{
 }
 .outlet-locations .wandoor-outlet, .outlet-locations .nilambur-outlet{
     height: 380px;
-    width:350px;
-    background-color: indigo;
+    width: 350px;
     margin-left: 150px;
     margin-bottom: 50px;
     overflow: hidden;
+    margin-top: 10px;
+    cursor: pointer;
 }
 .wandoor-outlet{
     background: url(/images/wandoor-outlet.png) no-repeat;
@@ -239,8 +240,47 @@ h1,h2,h3,h4{
     background-size: cover;
     position: relative;
 }
+.wandoor-outlet .location{
+    display: flex;
+    z-index: 1000 !important;
+    display: inline-block;
+    width: max-content;
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    left: 120px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    background-color: var(--brndcolor);
+}
+.wandoor-outlet .location span{
+    color:var(--blkcolor);
+    padding-left: 5px;
+    font-size: 1.1rem;
+    font-family: var(--font);
+}
 .nilambur-outlet{
-    background: url(/images/nilambur-oulet.png);
+    background: url(/images/nilambur-oulet.png) no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+.nilambur-outlet .location{
+    display: flex;
+    z-index: 1000 !important;
+    display: inline-block;
+    width: max-content;
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    left: 120px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    background-color: var(--brndcolor);
+}
+.nilambur-outlet .location span{
+    color:var(--blkcolor);
+    padding-left: 5px;
+    font-size: 1.1rem;
+    font-family: var(--font);
 }
