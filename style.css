@@ -361,7 +361,7 @@ h1,h2,h3,h4{
 .testimonial-container{
     height: 400px;
     width: auto;
-    background-color: rgb(190, 185, 185);
+    background-color: var(--bgcolor);
 }
 .testimonial-container h3{
     font-weight: 500;
@@ -370,4 +370,29 @@ h1,h2,h3,h4{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
+.testimonial-container .testimonial-box{
+    height: 220px;
+    width: 690px;
+    background-color: rgb(221, 215, 208);
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.testimonial-box p{
+    font-family: var(--font);
+    font-size: 1rem;
+    max-width: 550px;
+    text-align: center;
+    font-style: italic;
+    /* letter-spacing: 0.5px; */
+}
+.testimonial-box span{
+    font-family: var(--font);
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-right: -400px;
+    color: var(--brndcolor);
+    font-weight: 600;
+}
