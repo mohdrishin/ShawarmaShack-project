@@ -97,7 +97,7 @@ h1,h2,h3,h4{
     text-align: center;
     font-size: 2.5rem;
 }
-.menu-section span{
+.menu-section .menu-tag{
     font-family: var(--font);
     margin:0 613px;
     font-size: 14px;
@@ -110,7 +110,8 @@ h1,h2,h3,h4{
     padding-right: 100px;
 }
 .menu-item-1, .menu-item-2, .menu-item-3{
-    height: 400px;
+    /* height: 400px; */
+    height: max-content;
     width: 300px;
     margin-top: 35px;
     /* background-color: rgb(206, 197, 214); */
@@ -151,11 +152,34 @@ h1,h2,h3,h4{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .menu-contents h4{
     font-family: var(--font);
     font-size: 1.1rem;
     color: var(--blkcolor);
-    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 8px; 
     font-weight: 600;
+}
+.menu-contents p{
+    font-family: var(--font);
+    font-size: 0.9rem;
+    max-width: 280px;
+    padding-bottom: 10px;
+}
+.menu-contents .menu-pricetag{
+    display: flex;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.menu-pricetag span{
+    color: var(--brndcolor);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.menu-pricetag .fas{
+    color: green;
 }
