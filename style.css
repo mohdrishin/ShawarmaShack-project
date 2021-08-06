@@ -202,7 +202,7 @@ h1,h2,h3,h4{
     color: green;
 }
 
-/* Oulet Section code stats here */
+/* Outlet Section code stats here */
 
 .container .outlet-section{
     height: 800px;
@@ -261,7 +261,7 @@ h1,h2,h3,h4{
     font-family: var(--font);
 }
 
-.wandoor-outlet .locateme{
+.wandoor-outlet .locateme, .nilambur-outlet .locateme{
     /* display: block; */
     border: 2px solid orange;
     border-radius: 20px;
@@ -277,7 +277,7 @@ h1,h2,h3,h4{
     text-align: center;
     /* display:none; */
 }
-.wandoor-outlet .contactme{
+.wandoor-outlet .contactme, .nilambur-outlet .contactme{
     display: inline-block;
     border: 2px solid orange;
     border-radius: 20px;
@@ -293,14 +293,9 @@ h1,h2,h3,h4{
     position: absolute;
 }
 
-.wandoor-outlet:hover + .locateme{
+.wandoor-outlet:hover{
     box-shadow: inset 0 0 0 1000px rgba(248, 190, 30, 0.2);
 }
-
-
-
-
-
 
 .nilambur-outlet{
     background: url(/images/nilambur-oulet.png) no-repeat;
@@ -331,3 +326,6 @@ h1,h2,h3,h4{
 .nilambur-outlet:hover{
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
+
+
+/* Outlet Section Code ends here */
