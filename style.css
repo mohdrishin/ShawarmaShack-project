@@ -358,39 +358,37 @@ h1,h2,h3,h4{
 
 /* Testimonial Section starts here */
 
-.testimonial-container{
+.slide-container{
     height: 400px;
     width: auto;
     background-color: var(--bgcolor);
+    /* background-color: bisque; */
+    position: relative;
 }
-.testimonial-container h3{
+.slide-container h3{
     font-weight: 500;
     text-align: center;
     font-size: 2rem;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.testimonial-container .testimonial-box{
+.slide-container .slide-box{
     height: 220px;
-    width: 690px;
+    width: max-content;
     background-color: rgb(221, 215, 208);
     margin: 30px auto;
-    padding-top: 50px;
+    padding: 50px;
     position: relative;
 }
-.testimonial-box .fa-chevron-left{
-    position: absolute;
-    left: 10px;
-    top: 100px;
-}
-.testimonial-contents{
+.slide-text{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
     /* margin: auto; */
 }
-.testimonial-contents p{
+.slide-text p{
     font-family: var(--font);
     font-size: 1rem;
     max-width: 550px;
@@ -398,18 +396,47 @@ h1,h2,h3,h4{
     font-style: italic;
     /* letter-spacing: 0.5px; */
 }
-.testimonial-contents span{
-    font-family: var(--font);
-    font-size: 1.1rem;
-    margin-top: 15px;
-    margin-right: -400px;
-    color: var(--brndcolor);
-    font-weight: 600;
-}
-.testimonial-box .fa-chevron-right{
+.author{
     position: absolute;
-    right: 10px;
-    top: 100px;
+    right: 25px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--brndcolor);
+}
+.slide-container .slide-box{
+    display: none;
+}
+.slide-container .slide-box.active{
+    display: block;
+}
+
+.slide-container #next,
+.slide-container #prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px #3337;
+}
+.slide-container #next{
+    right: 25%;
+}
+.slide-container #prev{
+    left: 25%;
+}
+.slide-container #next:hover,
+.slide-container #prev:hover{
+    background: #333;
+    color: #fff;
 }
 
 
