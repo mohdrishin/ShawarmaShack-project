@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 .container .landing-section{
     height: 100vh;
     width: auto;
-    background: url(/images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view.jpg) no-repeat;
+    background: url(./images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -145,7 +145,7 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 10px 10px 0px 0px;
     background-color: cadetblue;
     overflow: hidden;
-    background-image: url(/images/121584927_189647089268217_8539372746537639477_n.jpg);
+    background-image: url(./images/121584927_189647089268217_8539372746537639477_n.jpg);
     background-size: cover;
 }
 .item-image2{
@@ -154,7 +154,7 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 10px 10px 0px 0px;
     background-color: cadetblue;
     overflow: hidden;
-    background: url(/images/137330929_777618079508530_2690502505447687163_n.jpg) no-repeat;
+    background: url(./images/137330929_777618079508530_2690502505447687163_n.jpg) no-repeat;
     background-size: cover;
 }
 .item-image3{
@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 10px 10px 0px 0px;
     background-color: cadetblue;
     overflow: hidden;
-    background: url(/images/206541681_324028972689271_8258511260097201120_n.jpg) no-repeat;
+    background: url(./images/206541681_324028972689271_8258511260097201120_n.jpg) no-repeat;
     background-size: cover;
 }
 .menu-items .menu-contents{
@@ -228,7 +228,7 @@ h1,h2,h3,h4,h5,h6{
 .outlet-container .left-outlet{
     grid-column: 1 / 2;
     /* background: linear-gradient(0deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.3)), url(/images/wandoor-outlet.png) no-repeat; */
-    background: linear-gradient(45deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.6)), url(/images/wandoor-outlet.png) no-repeat;
+    background: linear-gradient(45deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.6)), url(./images/wandoor-outlet.png) no-repeat;
     background-position: center;
     background-size: cover;
     background-color: rgba(247, 239, 8, 0.7);
@@ -250,7 +250,7 @@ h1,h2,h3,h4,h5,h6{
 .outlet-container .right-outlet{
     grid-column: 3 / 4;
     background-color: blanchedalmond;
-    background: linear-gradient(45deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.3)), url(/images/nilambur-oulet.png) no-repeat;
+    background: linear-gradient(45deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.3)), url(./images/nilambur-oulet.png) no-repeat;
     /* background-position:center; */
     background-size: cover;
     display: flex;
