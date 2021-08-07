@@ -379,6 +379,8 @@ h1,h2,h3,h4{
     margin: 30px auto;
     padding: 50px;
     position: relative;
+    overflow: hidden;
+    animation: slide 2s linear;
 }
 .slide-text{
     display: flex;
@@ -398,7 +400,7 @@ h1,h2,h3,h4{
 }
 .author{
     position: absolute;
-    right: 25px;
+    right: 35px;
     margin-top: 10px;
     font-size: 1rem;
     font-weight: 600;
@@ -442,3 +444,27 @@ h1,h2,h3,h4{
 
 
 /* Testimonial Section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animations */
+
+/* review slider animation starts */
+@keyframes slide{
+    0%{
+        transform:rotateY(18deg);
+    }
+}
+/* review slider animation ends */
