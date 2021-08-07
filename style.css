@@ -205,9 +205,10 @@ h1,h2,h3,h4,h5,h6{
 /* Outlet Section code stats here */
 
 .container .outlet-section{
-    height: max-content;
+    height: 500px;
     width: auto;
-    background-color: var(--bgcolor);
+    background-color: rgb(248, 229, 229);
+
 }
 .outlet-section h3{
     font-weight: 500;
@@ -216,143 +217,33 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.outlet-section .location-container{
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding-bottom: 60px;
-    flex-wrap: wrap;
+.outlet-section .outlet-container{
+    height: 300px;
+    width:70%;
+    margin: 45px auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1.6fr;
 }
-
-.outlet-section .side-image{
-    position: absolute;
-    left: -50px;
-    height: 380px;
-    width: 200px;
-    margin-top: 25px;
-    background: url(/images/sidepost-shawarma-shack.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 0px 8px 8px 0px;
-    border-top: 3px solid var(--brndcolor);
-    border-right: 3px solid var(--brndcolor);
-    border-bottom: 3px solid var(--brndcolor);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-}
-
-
-.outlet-section .outlet-locations{
-    margin: 25px 100px 0px 200px;
-    /* background-color: indianred; */
-    width: auto;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.outlet-locations .wandoor-outlet, .outlet-locations .nilambur-outlet{
-    height: 380px;
-    width: 350px;
-    margin-left: 150px;
-    margin-bottom: 50px;
-    overflow: hidden;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.wandoor-outlet{
+.outlet-container .left-outlet{
+    grid-column: 1 / 2;
     background: url(/images/wandoor-outlet.png) no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
-    /* display: block; */
 }
-.wandoor-outlet .location{
-    display: flex;
-    z-index: 1000 !important;
-    display: inline-block;
-    width: max-content;
-    position: absolute;
-    bottom: 20px;
-    padding: 10px;
-    left: 120px;
-    border: 2px solid orange;
-    border-radius: 20px;
-    background-color: var(--brndcolor);
-}
-.wandoor-outlet .location span{
-    color:var(--blkcolor);
-    padding-left: 5px;
-    font-size: 1.1rem;
-    font-family: var(--font);
-}
-
-.wandoor-outlet .locateme, .nilambur-outlet .locateme{
-    /* display: block; */
-    border: 2px solid orange;
-    border-radius: 20px;
-    background-color: var(--brndcolor);
-    top: 120px;
-    padding: 10px;
-    left:130px;
-    width: 100px;
-    font-family: var(--font);
-    font-size: 1rem;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-    /* display:none; */
-}
-.wandoor-outlet .contactme, .nilambur-outlet .contactme{
-    display: inline-block;
-    border: 2px solid orange;
-    border-radius: 20px;
-    background-color: var(--brndcolor);
-    top: 180px;
-    padding: 10px;
-    left:130px;
-    width: 100px;
-    text-align: center;
-    font-family: var(--font);
-    font-size: 1rem;
-    align-items: center;
-    position: absolute;
-}
-
-.wandoor-outlet:hover{
-    box-shadow: inset 0 0 0 1000px rgba(248, 190, 30, 0.2);
-}
-
-.nilambur-outlet{
+.outlet-container .right-outlet{
+    grid-column: 3 / 4;
+    background-color: blanchedalmond;
     background: url(/images/nilambur-oulet.png) no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
 }
-.nilambur-outlet .location{
-    display: flex;
-    z-index: 1000 !important;
-    display: inline-block;
-    width: max-content;
-    position: absolute;
-    bottom: 20px;
-    padding: 10px;
-    left: 120px;
-    border: 2px solid orange;
-    border-radius: 20px;
-    background-color: var(--brndcolor);
-
+.outlet-container .center-pic{
+    grid-column: 2 / 3;
+    overflow: hidden;
+    background-position: center;
+    background-size: contain;
 }
-.nilambur-outlet .location span{
-    color:var(--blkcolor);
-    padding-left: 5px;
-    font-size: 1.1rem;
-    font-family: var(--font);
-}
-.nilambur-outlet:hover{
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-}
-
 
 /* Outlet Section Code ends here */
 
@@ -555,7 +446,7 @@ footer{
 }
 
 
-
+/* footer copyrights */
 .copyright-text{
     text-align: center;
     font-family: var(--font);
@@ -566,7 +457,7 @@ footer{
 }
 
 
-
+/* Footer ends here */
 
 
 
