@@ -375,7 +375,7 @@ h1,h2,h3,h4{
 .slide-container .slide-box{
     height: 220px;
     width: max-content;
-    background-color: rgb(221, 215, 208);
+    /* background-color: rgb(221, 215, 208); */
     margin: 30px auto;
     padding: 50px;
     position: relative;
@@ -411,6 +411,7 @@ h1,h2,h3,h4{
     display: block;
 }
 
+/* Slide next prev buttons */
 .slide-container #next,
 .slide-container #prev{
     position: absolute;
