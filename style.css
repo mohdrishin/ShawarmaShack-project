@@ -10,7 +10,7 @@
     --blkcolor: #000;
     --bgcolor: linear-gradient(114deg, rgba(241,242,246,1) 0%, rgba(230,230,230,1) 100%);
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5,h6{
     font-family: var(--font);
 }
 
@@ -446,10 +446,119 @@ h1,h2,h3,h4{
 
 /* Testimonial Section ends here */
 
+/* footer starts here */
+
+footer{
+    height: max-content;
+    width: auto;
+    background-color: #2c2626;
+    margin-top: -10px;
+    padding: 10px 100px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* justify-content: space-evenly; */
+}
+.footer-container .logo-side{
+    height: auto;
+    width: max-content;
+    /* background-color: blanchedalmond; */
+    padding:30px;
+}
+.logo-side img{
+    height: 150px;
+    padding-left: 15px;
+    /* margin-top: 25px; */
+}
+.logo-side .social-connect{
+    margin-top: 15px;
+    font-family: var(--font);
+    font-size: 1rem;
+    padding-left: 5px;
+    display: flex;
+}
+.social-connect button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 45px;
+    border-radius: 8px;
+    border: 0px solid transparent;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    background: linear-gradient(45deg, #405DE6, #5851db, #833ab4, #c13584,#e1306c, #fd1d1d);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    cursor: pointer;
+}
+.social-connect .fa-instagram{
+    padding-left: 10px;
+}
+
+
+.footer-container .contacts{
+    /* background-color: blueviolet; */
+    height: 275px;
+    width: 60%;
+    margin-left: 15px;
+    /* width: max-content; */
+    /* background-color: blanchedalmond; */
+    padding:30px;
+}
+.contacts h5{
+    text-align: center;
+    /* padding-top: 5px; */
+    font-size: 1.5rem;
+    color: var(--fontwhite);
+}
+.contact-locations{
+    height: auto;
+    width: 100%;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+}
+.contact-locations .location1, .contact-locations .location2{
+    text-align: left;
+    padding:30px;
+    font-family: var(--font);
+    max-width: 300px;
+    font-size: 1rem;
+    color: #fff;
+}
+.location1 h6, .location2 h6{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+    color:var(--brndcolor)
+}
+.location1 p, .location2 p{
+    padding-bottom: 10px;
+}
+.location1 span, .location2 span{
+    font-family: var(--font);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 
-
+.copyright-text{
+    text-align: center;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    color: lightgrey;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
 
 
 
