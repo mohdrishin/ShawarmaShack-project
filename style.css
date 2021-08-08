@@ -467,6 +467,10 @@ footer{
     font-size: 16px;
     font-weight: 500;
 }
+.location1 a, .location2 a{
+    text-decoration: none;
+    color: var(--fontwhite);
+}
 
 
 /* footer copyrights */
@@ -562,18 +566,20 @@ footer{
         position: relative;
     }
     .slide-container h3{
-        padding-bottom: 1px;
+        padding:0px 5px 1px 5px;
     }
     .slide-container .slide-box{
-        height: 200px;
+        height: 260px;
         margin: 20px auto;
-        padding: 30px;
+        padding: 10px 30px;
         max-width: 440px;
+        /* background-color: chartreuse; */
     }
     .author{
         position: absolute;
         right: 15%;
         margin-top: 10px;
+        /* margin-bottom: 10px; */
     }
     .slide-container #next,
     .slide-container #prev{
@@ -593,6 +599,7 @@ footer{
     footer{
         height: max-content;
         padding: 10px 0px;
+        margin-top: 10px;
     }
     .footer-container{
         display: flex;
