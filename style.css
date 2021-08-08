@@ -539,10 +539,10 @@ footer{
     .outlet-section .outlet-container{
         height: 250px;
         width: auto;
-        margin: 20px 15px;
-        /* background-color: aquamarine; */
+        margin: 20px 0px;
+        padding: 10px;
         grid-template-columns: 1.7fr 1.7fr;
-        grid-gap: 10px;
+        grid-gap: 6px;
     }
     .outlet-container .left-outlet{
         grid-column: 1 / 2;
@@ -554,7 +554,7 @@ footer{
         display: none;
     }
     .left-outlet h4, .right-outlet h4{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: var(--fontwhite);
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -590,11 +590,11 @@ footer{
     }
     .slide-container #next{
         right: 35%;
-        top: 85%;
+        top: 88%;
     }
     .slide-container #prev{
         left: 35%;
-        top: 85%;
+        top: 88%;
     }
     footer{
         height: max-content;
