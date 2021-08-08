@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5,h6{
 .menu-section h3{
     font-weight: 500;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .menu-section .menu-tag{
     font-family: var(--font);
@@ -115,7 +115,7 @@ h1,h2,h3,h4,h5,h6{
     /* display: inline-block;
     width: 100%; */
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(102, 95, 95);
 }
 .menu-section .menu-items{
@@ -395,7 +395,7 @@ footer{
 .logo-side .social-connect{
     margin-top: 15px;
     font-family: var(--font);
-    font-size: 1rem;
+    /* font-size: 1rem; */
     padding-left: 5px;
     display: flex;
 }
@@ -458,7 +458,7 @@ footer{
     text-transform: uppercase;
     font-size: 1.1rem;
     padding-bottom: 5px;
-    color:var(--brndcolor)
+    color:var(--brndcolor);
 }
 .location1 p, .location2 p{
     padding-bottom: 10px;
@@ -486,11 +486,130 @@ footer{
 /* Footer ends here */
 
 
-/* Responsive Codes */
+/* Responsive Codes Starts Here*/
 
-/* @media screen and (min-width: 481px) and (max-width:768px){
-    
-} */
+/* Tablet View */
+@media screen and (min-width: 481px) and (max-width:768px){
+    .landing-section{
+        background: linear-gradient(45deg, rgba(70, 69, 67, 0.9), rgba(2, 2, 1, 0.2)), url(./images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view.jpg) no-repeat;
+    }
+    .landing-section header img{
+        height: 120px;
+        margin: 40px 0px 0px 48px;
+    }
+    .landing-section section h1{
+        font-size: 3.5rem;
+        line-height: 4.2rem;
+    }
+    .landing-section section button{
+        padding: 20px;
+        font-size: 12px;
+    }
+    .landing-section section img{
+        height: 20px;
+    }
+    .about-section{
+        height: 340px;
+        padding-top: 50px;
+    }
+    .menu-section{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .menu-section .menu-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .slide-container{
+        height: 300px;
+        width: auto;
+        position: relative;
+    }
+    .slide-container h3{
+        padding-bottom: 1px;
+    }
+    .slide-container .slide-box{
+        height: 200px;
+        margin: 20px auto;
+        padding: 30px;
+    }
+    .author{
+        position: absolute;
+        right: 15%;
+        margin-top: 10px;
+    }
+    .slide-container #next,
+    .slide-container #prev{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        box-shadow: 0 5px 10px #3337;
+    }
+    .slide-container #next{
+        right: 8%;
+    }
+    .slide-container #prev{
+        left: 8%;
+    }
+    footer{
+        height: max-content;
+        padding: 10px 0px;
+    }
+    .footer-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        /* justify-content: space-evenly; */
+    }
+    .footer-container .logo-side{
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-side img{
+        height: 120px;
+    }
+    .social-connect button{
+        height: 38px;
+    }
+    .footer-container .contacts{
+        height: 275px;
+        width: 90%;
+        /* margin-left: 15px; */
+        padding: 20px;
+    }
+    .contacts h5{
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    .contact-locations{
+        width: auto;
+        height: max-content;
+    }
+    .location1 h6, .location2 h6{
+        font-size: 1rem;
+    }
+    .location1 p, .location2 p{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .location1 span, .location2 span{
+        /* padding-bottom: 10px; */
+        font-size: 15px;
+    }
+    .copyright-text{
+        padding-bottom: 8px;
+        padding-top: 5px;
+    }
+}
 
 
 
