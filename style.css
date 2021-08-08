@@ -204,9 +204,8 @@ h1,h2,h3,h4,h5,h6{
 /* Outlet Section code stats here */
 
 .container .outlet-section{
-    height: 500px;
+    height: 480px;
     width: auto;
-    /* background-color: rgb(248, 229, 229); */
     background-color: var(--bgcolor);
 }   
 .outlet-section h3{
@@ -220,7 +219,7 @@ h1,h2,h3,h4,h5,h6{
     height: 300px;
     width:70%;
     margin: 45px auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: grid;
     grid-template-columns: 1.7fr 1fr 1.7fr;
 }
@@ -243,8 +242,6 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     font-weight: 600;
 }
-
-
 
 .outlet-container .right-outlet{
     grid-column: 3 / 4;
@@ -523,6 +520,13 @@ footer{
         flex-wrap: wrap;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .outlet-section .outlet-container{
+        width:90%;
+        grid-template-columns: 1.7fr 0.1fr 1.7fr;
+    }
+    .outlet-container .center-pic{
+        display: none;
     }
     .slide-container{
         height: 300px;
