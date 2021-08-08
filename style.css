@@ -618,7 +618,7 @@ footer{
         height: 300px;
         width: 90%;
         padding: 10px 2px;
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
     }
     .contacts h5{
         font-size: 1.4rem;
@@ -627,7 +627,7 @@ footer{
     .contact-locations{
         width: auto;
         height: max-content;
-        background-color: burlywood;
+        /* background-color: burlywood; */
     }
     .location1 h6, .location2 h6{
         font-size: 1rem;
