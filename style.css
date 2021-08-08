@@ -513,6 +513,8 @@ footer{
     .landing-section section h1{
         font-size: 2.5rem;
         line-height: 3rem;
+        padding-left: 3px;
+        padding-right: 3px;
     }
     .landing-section section button{
         margin-top: 60px;
@@ -522,6 +524,14 @@ footer{
     /* .landing-section section img{
         height: 20px;
     } */
+    .menu-section .menu-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .item-image1, .item-image2, .item-image3{
         height: 200px;
         width: auto;
