@@ -485,15 +485,7 @@ footer{
 
 /* Responsive Codes Starts Here*/
 
-/* Large Screens */
-@media screen and (min-width:769px) {
-    .container .landing-section{
-    background: linear-gradient(45deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.2)), url(./images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    }
-}
+
 
 /* Mobile Screens */
 @media screen and (min-width: 320px) and (max-width:480px){
@@ -510,9 +502,22 @@ footer{
         padding-top: 95px; */
         padding: 95px 0px 20px 50px;
     }
+    .landing-section header img{
+        height: 110px;
+        margin: 40px 0px 0px 48px;
+    }
+    .landing-section section h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
     .landing-section section button{
         margin-top: 60px;
+        height: 20px;
+        padding: 20px;
     }
+    /* .landing-section section img{
+        height: 20px;
+    } */
     .item-image1, .item-image2, .item-image3{
         height: 200px;
         width: auto;
@@ -522,12 +527,15 @@ footer{
         background-size: cover;
         background-position: top;
     }
-
-
+    .container .outlet-section{
+        height: 400px;
+        width: auto;
+        background-color: var(--bgcolor);
+    }   
     .outlet-section .outlet-container{
-        height: 300px;
-        width:auto;
-        margin: 45px 40px;
+        height: 250px;
+        width: auto;
+        margin: 20px 15px;
         /* background-color: aquamarine; */
         grid-template-columns: 1.7fr 1.7fr;
         grid-gap: 10px;
@@ -607,9 +615,10 @@ footer{
         height: 38px;
     }
     .footer-container .contacts{
-        height: 275px;
+        height: 300px;
         width: 90%;
-        padding: 20px;
+        padding: 10px 2px;
+        background-color: cadetblue;
     }
     .contacts h5{
         font-size: 1.4rem;
@@ -618,6 +627,7 @@ footer{
     .contact-locations{
         width: auto;
         height: max-content;
+        background-color: burlywood;
     }
     .location1 h6, .location2 h6{
         font-size: 1rem;
@@ -632,7 +642,7 @@ footer{
     }
     .copyright-text{
         padding-bottom: 8px;
-        padding-top: 5px;
+        padding-top: 15px;
     }
 }
 
@@ -773,6 +783,17 @@ footer{
         padding-top: 5px;
     }
 }
+
+/* Large Screens */
+@media screen and (min-width:769px) {
+    .container .landing-section{
+    background: linear-gradient(45deg, rgba(70, 69, 67, 0.3), rgba(2, 2, 1, 0.2)), url(./images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    }
+}
+
 
 /* Laptop View */
 
