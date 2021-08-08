@@ -784,6 +784,28 @@ footer{
     }
 }
 
+/* Landscape orientation */
+@media screen and (max-width:768px) and (orientation: landscape){
+    .landing-section header img{
+        height: 100px;
+        margin: 30px 0px 0px 48px;
+    }
+    .landing-section section h1{
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        margin-top: -20px;
+    }
+    .slide-container #next{
+        right: 7%;
+    }
+    .slide-container #prev{
+        left: 7%;
+    }
+}
+/* Landscape orientation */
+
+
+
 /* Large Screens */
 @media screen and (min-width:769px) {
     .container .landing-section{
