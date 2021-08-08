@@ -14,7 +14,6 @@ h1,h2,h3,h4,h5,h6{
     font-family: var(--font);
 }
 
-
 /* Landing Section Code starts here */
 
 
@@ -289,7 +288,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .slide-container .slide-box{
     height: 220px;
-    width: max-content;
+    /* width: max-content; */
     /* background-color: rgb(221, 215, 208); */
     margin: 30px auto;
     padding: 50px;
@@ -311,12 +310,15 @@ h1,h2,h3,h4,h5,h6{
     max-width: 550px;
     text-align: center;
     font-style: italic;
+    /* padding: px; */
+    /* margin: auto; */
     /* letter-spacing: 0.5px; */
 }
 .author{
     position: absolute;
-    right: 35px;
-    margin-top: 10px;
+    right: 30%;
+    max-width: 550px;
+    margin: 10px;
     font-size: 1rem;
     font-weight: 600;
     color: var(--brndcolor);
@@ -483,6 +485,12 @@ footer{
 
 /* Footer ends here */
 
+
+/* Responsive Codes */
+
+@media screen(min-width:480px) {
+    
+}
 
 
 
